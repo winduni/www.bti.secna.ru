@@ -2051,13 +2051,13 @@ footer, footer a, footer .copy{
         display: block !important;
         padding-left: 20px;
     }
-    .main-menu-lg{
+    .main-menu-lg, .topmenu nav:first-child:before{
         display: none;
     }
     #menu-close{
         bottom:18px;
     }
-    .services div {
+    .services div { 
         min-height: 230px;
     }
     .ttt{
@@ -2066,6 +2066,7 @@ footer, footer a, footer .copy{
     .dropdown-menu>li>a{
         white-space:normal;
     }
+
 }
 @media screen and (max-width: 400px) {
 	.bg-sl, .slider-bottom,  .img-obinst, .head-lg, #menu-open, #main-menu-bg {

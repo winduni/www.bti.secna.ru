@@ -180,7 +180,7 @@
             <div class="container-fluid block-content">
 
 
-                <div class="col-sm-8 " style="margin-top: 20px;background: #fff;padding-bottom: 14px;">
+                <div class="col-sm-8 hidden-xs" style="margin-top: 20px;background: #fff;padding-bottom: 14px;">
                     <img src="<?php bloginfo('template_url'); ?>/img/msddn.png"   width="155px" style="margin:10px 15px 5px 0;" align="left">
                     <p style="margin-top:15px;margin-bottom: 0;"> <b>Уважаемые студенты и сотрудники!</b>
                         <br>Уведомляем, что Бийский технологический институт
