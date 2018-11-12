@@ -1,0 +1,27 @@
+/*!
+	Theme Name: Univer2
+	Author: landpool_winduni
+*/
+/* MAIN CSS */
+@import url('css/bootstrap.min.css');
+@import url('css/skin-bootstrap.css');
+@import url('css/font-awesome.min.css');
+@import url('css/theme.css');
+@import url('css/responsive.css');
+@import url('css/animate.css');
+@import url('css/color.css');
+
+
+
+/* FONTS */
+@import url(//fonts.googleapis.com/css?family=Roboto:400,700,300,900,700italic,400italic,500,500italic,300italic);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('fonts/flaticon/flaticon.css');
+
+
+
+/* PLUGIN CSS */
+@import url('assets/loader/css/loader.css');
+@import url('assets/owl-carousel/owl.carousel.css');
+@import url('assets/owl-carousel/owl.theme.css');
+@import url('assets/isotope/isotope.css');

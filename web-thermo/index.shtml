@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<script>var i,val,after,sear=window.location.search.substring(1);
+if(sear.indexOf('___data___')!=-1 || sear.indexOf('___time___')!=-1){
+var toDay = new Date();
+var min=toDay.getMinutes().toString();
+if(min.length<2)min="0"+min;
+sear=sear.replace('___data___',toDay.getDate()+'.'+(toDay.getMonth()+1)+'.'+toDay.getFullYear()).replace('___time___',toDay.getHours()+':'+min);
+}
+var params=decodeURI(sear).split("&");
+for (i=0;i<params.length;i++){
+ind = params[i].indexOf("=");
+if (params[i].substr(0,ind)=='before')document.write(params[i].substr(ind+1));
+if (params[i].substr(0,ind)=='after')after=params[i].substr(ind+1);
+}</script>
+<span style="color:#fff;font-family:Arial"><!--#include virtual="data" -->°C</span>
+<script>if(after)document.write(after)</script>
