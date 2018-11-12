@@ -15,15 +15,22 @@ the_breadcrumb();
 </div>
 <hr>
 	<?php while (have_posts()): the_post();?>
+        <div class="col-md-10">
 	<h5 style="color:#0162a7;"> <i class="fa fa-caret-right terrakote"></i> <?php the_title();?></h5>
+        </div>
+<div class="col-md-2" >
+    <div class="text-right grey-fa">
+        <?php echo sal_showLikes(); ?>
+        <?php if(function_exists('the_views')) { the_views(); } ?>
+    </div>
+</div>
+        <div style="clear:both;"></div>
 	<hr>
 		<?php the_content();?>
 
 	<?php endwhile; ?>
 </a>
-<div class="text-right grey-fa">
-<?php if(function_exists('the_views')) { the_views(); } ?>
-</div>
+
 <br><br><br>
 
 <div align="right" class="col-md-5  col-md-offset-5">

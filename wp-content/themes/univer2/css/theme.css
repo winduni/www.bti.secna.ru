@@ -427,17 +427,35 @@ background: url(/assets/promo/innovation-cb780697abee7f0bbf793432ef9c2d50421ad2a
 background: url(/assets/promo/innovation-cb780697abee7f0bbf793432ef9c2d50421ad2a476915b99b5411fb6438b8ec1.png) no-repeat -150px 150px,-webkit-linear-gradient(top, #0190c8 0%, #0d53b3 100%);
 background: url(https://tusur.ru/assets/footer-bg-9af1818a642dbe257fa3feb743b2d8aaae48ae6579016df3b834dd4c9376328b.png) no-repeat -150px 150px,linear-gradient(to bottom, #0190c8 0%, #0d53b3 100%);
 }
-.news{background:#fff;width:19%;margin:5px;
-padding-right: 8px;padding-left: 8px;min-height: 322px;
+
+.news {
+	background: #fff;
+	width: 19%;
+	margin: 5px;
+	padding-right: 8px;
+	padding-left: 8px;
+	min-height: 327px;
 }
-.news:hover{
-	box-shadow: 0 0 2px #ccc;cursor:pointer;
+
+.news:hover {
+	box-shadow: 0 0 2px #ccc;
+	cursor: pointer;
 }
-.news > img{
-	height:150px;padding:2px;margin-top:5px;
+
+.news > img {
+	height: 150px;
+	padding: 2px;
+	margin-top: 5px;
 }
-.news > span{
-	display: inline-block;font-size: 11px;margin-top: 15px;color: #888;text-align:right;width: 100%;background: #f2f2f2;
+
+.news > span {
+	display: inline-block;
+	font-size: 11px;
+	margin-top: 15px;
+	color: #888;
+	text-align: right;
+	width: 100%;
+	background: #f2f2f2;
 }
 .bottom-slider{
 height:auto;
@@ -2057,7 +2075,7 @@ footer, footer a, footer .copy{
     #menu-close{
         bottom:18px;
     }
-    .services div { 
+    .services div {
         min-height: 230px;
     }
     .ttt{

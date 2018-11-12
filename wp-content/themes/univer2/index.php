@@ -249,6 +249,7 @@
                                     <a href="<?php echo get_permalink($post->ID); ?>" class="news-title">
                                         <?php trim_title_chars(135, '...'); ?></a>
                                     <div class="grey-fa-home">
+                                        <?php echo sal_showLikes(); ?>
                                         <?php if(function_exists('the_views')) { the_views(); } ?>
                                     </div>
                                 </div>

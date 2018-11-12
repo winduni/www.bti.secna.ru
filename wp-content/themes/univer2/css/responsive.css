@@ -1,18 +1,32 @@
 /*------------------------------------------------------------------
  - RESPONSIVE CSS
-
- - Author: Andrey Sokoltsov
- - Profile:	http://themeforest.net/user/andreysokoltsov
 -------------------------------------------------------------------*/
-
+.grey-fa-home .like-dislike {
+	left: -70px;
+}
+.grey-fa-home .like-dislike a{
+	font-size: 12px;
+	color:#ccc !important;
+}
+a#simpleAjaxDislike{
+	margin-right: 20px !important;
+}
+.grey-fa-home a#simpleAjaxDislike {
+	margin-right: 15px;
+}
+/******************/
 .grey-fa{
 	color:#ccc;
+	position: relative;
+	font-size: 13px;
+	margin-top: 7px;
 }
 .grey-fa-home{
 	color:#ccc;
 	position: absolute;
 	right: 10px;
 	bottom: 0px;
+	font-size: 12px;
 
 }
 
