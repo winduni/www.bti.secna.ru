@@ -37,6 +37,7 @@ a#simpleAjaxDislike{
 		right:-5px;
 		margin-top:0px;
 	}
+
 }
 @media screen and (max-width: 992px) {
 	.big-hr{
@@ -71,6 +72,9 @@ a#simpleAjaxDislike{
 		font-weight:400;
 		z-index:4;
 		overflow-x: auto;
+	}
+	.grey-fa-home{
+		display:none;
 	}
 	.navbar-main > li{
 		padding: 0;
